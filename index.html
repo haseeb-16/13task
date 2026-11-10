@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore and search available training courses.">
+    <title>Training Courses</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="js/app.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1>Learning Hub</h1>
+            <p>Explore courses and improve your skills.</p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="intro">
+            <h2>Available Courses</h2>
+            <p>Find a course that matches your interests and goals.</p>
+        </section>
+
+        <section class="controls" aria-label="Course filters">
+
+            <div class="form-group">
+                <label for="search-input">Search Courses</label>
+                <input
+                    type="search"
+                    id="search-input"
+                    placeholder="Search by course title..."
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="category-filter">Category</label>
+                <select id="category-filter">
+                    <option value="all">All Categories</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="sort-select">Sort By</label>
+                <select id="sort-select">
+                    <option value="title">Title (A-Z)</option>
+                    <option value="duration">Duration (Shortest First)</option>
+                    <option value="rating">Rating (Highest First)</option>
+                </select>
+            </div>
+
+            <div class="button-group">
+                <button type="button" id="reload-button">
+                    Reload Courses
+                </button>
+
+                <button type="button" id="cancel-button" class="cancel-button" disabled>
+                    Cancel Loading
+                </button>
+            </div>
+
+        </section>
+
+        <section class="status-section" aria-live="polite">
+            <p id="status-message" class="status-message">
+                Preparing courses...
+            </p>
+        </section>
+
+        <section class="courses-section">
+
+            <div class="section-heading">
+                <h2>Courses</h2>
+                <p id="course-count">0 courses found</p>
+            </div>
+
+            <div id="courses-container" class="courses-grid">
+            </div>
+
+        </section>
+
+        <section class="lesson-section">
+            <h2>Lesson Overview</h2>
+            <p id="lesson-summary">
+                Lesson information will appear here.
+            </p>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Learning Hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

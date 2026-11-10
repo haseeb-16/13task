@@ -1,0 +1,63 @@
+
+[
+    {
+        "id": 1,
+        "courseId": 1,
+        "title": "Introduction to JavaScript",
+        "duration": 45
+    },
+    {
+        "id": 2,
+        "courseId": 1,
+        "title": "Variables and Data Types",
+        "duration": 60
+    },
+    {
+        "id": 3,
+        "courseId": 2,
+        "title": "JavaScript Promises",
+        "duration": 50
+    },
+    {
+        "id": 4,
+        "courseId": 2,
+        "title": "Async and Await",
+        "duration": 55
+    },
+    {
+        "id": 5,
+        "courseId": 3,
+        "title": "HTML Fundamentals",
+        "duration": 60
+    },
+    {
+        "id": 6,
+        "courseId": 3,
+        "title": "CSS Layout and Flexbox",
+        "duration": 70
+    },
+    {
+        "id": 7,
+        "courseId": 4,
+        "title": "Python Basics",
+        "duration": 50
+    },
+    {
+        "id": 8,
+        "courseId": 4,
+        "title": "Python Functions",
+        "duration": 65
+    },
+    {
+        "id": 9,
+        "courseId": 5,
+        "title": "Introduction to Machine Learning",
+        "duration": 75
+    },
+    {
+        "id": 10,
+        "courseId": 6,
+        "title": "Image Processing with OpenCV",
+        "duration": 80
+    }
+]

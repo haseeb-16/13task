@@ -1,0 +1,57 @@
+
+[
+    {
+        "id": 1,
+        "title": "JavaScript Fundamentals",
+        "category": "JavaScript",
+        "level": "Beginner",
+        "duration": 10,
+        "rating": 4.8,
+        "description": "Learn JavaScript basics, variables, functions, arrays and objects."
+    },
+    {
+        "id": 2,
+        "title": "Modern JavaScript",
+        "category": "JavaScript",
+        "level": "Intermediate",
+        "duration": 15,
+        "rating": 4.9,
+        "description": "Explore modern JavaScript features, promises, modules and async programming."
+    },
+    {
+        "id": 3,
+        "title": "HTML and CSS",
+        "category": "Web Development",
+        "level": "Beginner",
+        "duration": 12,
+        "rating": 4.7,
+        "description": "Learn how to create and style responsive web pages."
+    },
+    {
+        "id": 4,
+        "title": "Python Programming",
+        "category": "Python",
+        "level": "Beginner",
+        "duration": 18,
+        "rating": 4.8,
+        "description": "Understand Python syntax, data structures, functions and programming concepts."
+    },
+    {
+        "id": 5,
+        "title": "Introduction to Machine Learning",
+        "category": "Artificial Intelligence",
+        "level": "Intermediate",
+        "duration": 20,
+        "rating": 4.9,
+        "description": "Learn machine learning concepts, algorithms and model evaluation."
+    },
+    {
+        "id": 6,
+        "title": "Computer Vision with OpenCV",
+        "category": "Artificial Intelligence",
+        "level": "Advanced",
+        "duration": 25,
+        "rating": 4.8,
+        "description": "Explore image processing, object detection and computer vision techniques."
+    }
+]
